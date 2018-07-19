@@ -3,7 +3,7 @@ import { graphql } from 'react-apollo'
 import { Link } from 'react-router'
 import gql from 'graphql-tag'
 
-import query from '../queries/fetchSongs'
+import query from '../queries/fetchSongList'
 
 class SongList extends Component {
   onSongDelete(id) {
