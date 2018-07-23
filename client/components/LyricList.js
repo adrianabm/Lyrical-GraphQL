@@ -4,7 +4,7 @@ class LyricList extends Component {
   renderLyrics() {
     return this.props.lyrics.map(({ id, content }) => {
       return (
-        <li ley={id} className="collection-item">
+        <li key={id} className="collection-item">
           {content}
         </li>
       )
